@@ -7,7 +7,7 @@ Implements the dual-stack user model and telemetry logging.
 """
 
 from datetime import datetime
-from app import db
+from app.extensions import db
 import enum
 
 # ========== Enums ==========

@@ -5,8 +5,8 @@ Run this file to start the development server
 """
 
 import os
-from app import create_app, db
-
+from app import create_app
+from app.extensions import db
 # Determine environment
 env = os.environ.get('FLASK_ENV', 'development')
 
